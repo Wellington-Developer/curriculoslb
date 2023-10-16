@@ -51,3 +51,18 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .section-about {
+    padding: 0 20px;
+    .container-about {
+
+      .section-info__about {
+        h1 {
+          font-size: 1.5rem;
+          line-height: 2rem;
+        }
+      }
+    }
+  }
+}

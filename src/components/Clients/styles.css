@@ -48,6 +48,6 @@
   }
   .section-clients .section-box__clients img {
     align-self: center;
-    justify-self: center;
+    justify-self: start;
   }
 }/*# sourceMappingURL=styles.css.map */

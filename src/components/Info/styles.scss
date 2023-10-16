@@ -27,6 +27,7 @@
 
   .container-icons__info {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
   }
 }

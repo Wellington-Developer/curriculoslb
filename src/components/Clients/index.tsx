@@ -5,7 +5,6 @@ import './styles.css';
 import LogoImg1 from '../../assets/logos/logo-1.svg'
 import LogoImg2 from '../../assets/logos/logo-2.svg'
 import LogoImg3 from '../../assets/logos/logo-3.svg'
-import LogoImg4 from '../../assets/logos/logo-4.svg'
 
 export const Clients = () => {
   return (
@@ -18,7 +17,7 @@ export const Clients = () => {
         <img src={LogoImg1} alt="logo" />
         <img src={LogoImg2} alt="logo" />
         <img src={LogoImg3} alt="logo" />
-        <img src={LogoImg4} alt="logo" />
+        <img src={LogoImg1} alt="logo" />
       </div>
     </div>
   )

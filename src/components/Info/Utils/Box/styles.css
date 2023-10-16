@@ -2,6 +2,8 @@
   width: 100%;
   flex: 1;
   margin-left: 18px;
+  min-width: 290px;
+  flex-wrap: wrap;
 }
 .container-box img {
   max-width: 30px;
