@@ -63,7 +63,7 @@
     justify-content: center;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 600px) {
   .intro-section {
     margin-top: 120px;
     padding: 0 20px;
