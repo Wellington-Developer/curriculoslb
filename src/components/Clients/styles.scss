@@ -2,15 +2,18 @@
   max-width: 1150px;
   padding: 60px 0;
   margin: 0 auto;
-  border-radius: 0 0 40px 40px;
+  border-radius: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  background-color: var(--bg-btn-color-3);
+  padding: 24px;
+  height: 150px;
 
   .section-info__clients {
     p {
-      color: rgba(132, 147, 172, 0.8);
+      color: white;
       line-height: 22px;
     }
   }

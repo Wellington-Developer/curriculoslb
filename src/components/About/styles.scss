@@ -1,5 +1,5 @@
 .section-about {
-  background: #EEF1F8;
+  background-color: var(--bg-btn-color-3);
   margin-top: 120px;
 
   .container-about {
@@ -10,6 +10,11 @@
     max-width: 1150px;
     margin: 0 auto;
     gap: 30px;
+
+    button {
+      background: #fff;
+      color: var(--bg-btn-color-3);
+    }
   
     .section-info__about,
     .section-image__about {
@@ -23,7 +28,7 @@
       flex-direction: column;
 
       h1 {
-        color: #1673FA;
+        color: #fff;
         font-size: 42px;
         line-height: 50px;
         margin-bottom: 24px;
@@ -35,7 +40,8 @@
       p {
         font-size: 1rem;
         line-height: 24px;
-        color: #626e80;
+        color: #fff;
+        opacity: 0.8;
         font-weight: 400;
         margin-bottom: 40px;
         max-width: 600px;
