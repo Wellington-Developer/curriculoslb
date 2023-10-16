@@ -1,0 +1,101 @@
+.scrolled {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  z-index: 999;
+  border-radius: 0 0 20px 20px;
+}
+
+.header-container {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+.header-container .section-logo__header h1 {
+  color: black;
+  font-weight: 500;
+}
+.header-container .section-menu__header ul {
+  display: flex;
+  gap: 24px;
+}
+.header-container .section-menu__header ul a {
+  color: #1E1E1E;
+  padding: 8px 12px;
+  border-radius: 24px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 300;
+}
+.header-container .section-menu__header ul a:hover {
+  background: var(--bg-btn-color-2);
+  opacity: 0.9;
+}
+.header-container .section-menu__header .section-icon__header {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-container {
+    padding: 20px 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header-container .section-logo__header h1 {
+    font-size: 1.2rem;
+  }
+  .header-container .section-menu__header ul {
+    gap: 4px;
+  }
+  .header-container .section-menu__header ul a {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 660px) {
+  .header-container .section-menu__header {
+    position: relative;
+  }
+  .header-container .section-menu__header ul {
+    display: none;
+    gap: 0px;
+  }
+  .header-container .section-menu__header .active {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 60px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 99;
+    right: 0;
+    border-radius: 20px;
+    width: 290px;
+  }
+  .header-container .section-menu__header .active li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-container .section-menu__header .section-icon__header {
+    display: flex;
+  }
+  .header-container .section-menu__header .section-icon__header svg {
+    font-size: 28px;
+  }
+}/*# sourceMappingURL=styles.css.map */

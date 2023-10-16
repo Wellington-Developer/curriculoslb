@@ -1,0 +1,37 @@
+.container-box {
+  width: 100%;
+  flex: 1;
+  margin-left: 18px;
+
+  img {
+    max-width: 30px;
+    margin-bottom: 12px;
+  }
+
+  h1 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    position: relative;
+    font-weight: 500;
+  }
+
+  h1::after {
+    content: "";
+    position: absolute;
+    background: var(--bg-btn-color-4);
+    height: 1em;
+    top: 25px;
+    left: -18px;
+    margin-top: -1em;
+    width: 4px;
+    border-radius: 4px;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 24px;
+    max-width: 250px;
+    opacity: 0.8;
+  }
+}

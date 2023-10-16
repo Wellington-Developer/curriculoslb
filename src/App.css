@@ -1,0 +1,18 @@
+:root {
+  --bg-table-color-1: #fff;
+  --bg-table-color-2: #f7f9fb;
+  --bg-btn-color-1: rgba(22,115,250,.08);
+  --bg-btn-color-2: rgba(10,29,56,.15);
+  --bg-btn-color-3: #1673fa;
+  --bg-btn-color-4: #1673fa;
+  --bg-btn-color-5: #fff;
+  --bg-btn-hover-1: #1259c0;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+}
